@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "database-client"
+version = "0.1.0"
+description = ""
+authors = ["d.a.kolesov <d.a.kolesov@s7.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.32"
+
+[tool.poetry.group.test]
+optional = true
+
+
+[tool.poetry.group.test.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
